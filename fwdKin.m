@@ -3,8 +3,15 @@ clc
 syms theta1Z AZ theta2Z BZ theta3Z CZ theta4Z DZ theta5Z EZ theta6Z FZ...
      theta1X AX theta2X BX theta3X CX theta4X DX theta5X EX theta6X FX
 
-%symbolic transltation and Rotation along Z and X
+%all measurements are in mm
+J1 = 350;
+J2 = 150;
+J3 = 250;
+J4x = 290;
+J4y = 75;
+J5 = 50;
 
+%symbolic transltation and Rotation along Z and X
 vals=[theta1Z, AZ , theta1X , AX;...
       theta2Z, BZ , theta2X , BX;...
       theta3Z, CZ , theta3X , CX;...
