@@ -22,7 +22,7 @@ if abs(a6)<480
     boolMat(6)=true;
 end
 if boolMat == [1,1,1,1,1,1]
-    bool=true
+    bool=true;
 else
     disp(boolMat)
     error('outside of joint speed')
