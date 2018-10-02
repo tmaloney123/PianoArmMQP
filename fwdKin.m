@@ -9,7 +9,7 @@ J2 = 150;
 J3 = 250;
 J4x = 290;
 J4y = 75;
-J5 = 50;
+J5 = 80;
 
 %symbolic transltation and Rotation along Z and X
 vals=[theta1Z, AZ , theta1X , AX;...
